@@ -7,7 +7,12 @@
     "port-peek": "bin/port-peek.js"
   },
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "test:bun": "bun test"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.0.0"
   },
   "license": "MIT"
 }
