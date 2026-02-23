@@ -1,0 +1,13 @@
+{
+  "name": "port-peek",
+  "version": "1.0.0",
+  "description": "Tiny CLI to quickly inspect local TCP listeners by port",
+  "type": "commonjs",
+  "bin": {
+    "port-peek": "bin/port-peek.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
